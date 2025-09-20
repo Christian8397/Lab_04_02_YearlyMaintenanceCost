@@ -10,6 +10,10 @@ public class Main {
      double winterCost = 300;
 
      double totalYearlyCost = summerCost + springCost + fallCost + winterCost;
+        System.out.println("Spring Cost: " + springCost);
+        System.out.println("Summer Cost: " + summerCost);
+        System.out.println("Fall Cost: " + fallCost);
+        System.out.println("Winter Cost: " + winterCost);
         System.out.println("Total Yearly Cost: " + totalYearlyCost);
     }
 }
